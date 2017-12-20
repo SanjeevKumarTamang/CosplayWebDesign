@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/rwd.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/form-and-table.css" type="text/css">
+    <script src="resources/js/nav.js" ></script>
+</head>
+<body onLoad="run_first()">
+
+<header class="col-12 col-s-12 ">
+    <div >
+        <div class="col-2 col-s-12">
+            <a href="index.html"  onclick="nav_item_selected(0)"><h1 class="logo">Cossie Play</h1></a>
+        </div>
+        <div class="col-7 col-s-9 nav-bar">
+            <nav class="menu-link">
+                <a href="index.html" id="0" onclick="nav_item_selected(0)">Home</a>
+                <a href="announcement.html" id="1" onclick="nav_item_selected(1)">Announcement</a>
+                <a href="contact.html" id="2" onclick="nav_item_selected(2)">Contact</a>
+                <a href="about.html" id="3" onclick="nav_item_selected(3)">About</a>
+            </nav>
+        </div>
+        <div class="col-2 col-s-10 menu-social-link">
+            <nav>
+                <img src="resources/images/facebook.png" class="social-link-img">
+                <img src="resources/images/insta.png" class="social-link-img">
+                <img src="resources/images/twitter.png" class="social-link-img">
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="row">
+
+    <div class="col-2 col-s-12 side-menu">
+        <ul>
+            <li><a href="costumeprice.html">Costume Price</a></li>
+            <li><a href="partyguidelines.html">Party Guidelines</a></li>
+            <li><a href="links.html">Useful Links</a></li>
+        </ul>
+    </div>
+
+    <div class="col-8 col-s-12">
+        <h1><i>What is CosPlay?</i></h1>
+        <p class="paragraph-align">
+            <img src="resources/images/cosplay-intro.jpg" class="cosplay-intro-img" controls>
+            Cosplay, a portmanteau of the words costume play, is a performance art in which
+            participants called cosplayers wear costumes and fashion accessories to represent
+            a specific character. Cosplayers often interact to create a subculture and a broader
+            use of the term "cosplay" applies to any costumed role-playing in venues apart from the
+            stage. Any entity that lends itself to dramatic interpretation may be taken up as a
+            subject and it is not unusual to see genders switched. Favorite sources include manga
+            and anime, comic books and cartoons, video games, and live-action films and television series.
+
+        </p>
+
+        <p class="paragraph-align">
+            <img src="resources/images/alice-in-wonderland-872612_1280.jpg"
+                 style="float:left;width: 40%;height: 250px;margin: 10px 15px 0px 0px;  border-radius: 5px;">
+            The rapid growth in the number of people cosplaying as a hobby since 1990 has made the
+            phenomenon a significant aspect of popular culture in Japan and some other parts of Asia
+            and in the Western world. Cosplay events are common features of fan conventions and there
+            are also dedicated conventions and local and international competitions, as well as social
+            networks, websites and other forms of media centered on cosplay activities.
+        </p>
+        <img src="resources/images/boromir-4-1478698.jpg" controls class="col-4 col-s-7 img-list">
+        <img src="resources/images/devils-570861_1280.jpg" controls class="col-4 col-s-7 img-list">
+        <img src="resources/images/winter-kingdom-798279_1920.jpg" controls class=" col-4 col-s-7 img-list">
+    </div>
+
+    <div class="col-2 col-s-12 ">
+        <div class="aside">
+            <p style="color: darkgreen;font-size: 22px;"><i><u>Register for upcoming party !!!</u></i></p>
+            <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+            <label for="attendees">Number of Attendees</label>
+            <input type="text" id="attendees" name="attendees">
+            <button class="button" style="vertical-align:middle"><span>Register </span></button>
+           </form>
+        </div>
+    </div>
+
+
+</div>
+
+<div id="footer">
+    <p>Design by:jc479253,Name:Sanjeev Kumar Tamang</p>
+</div>
+
+</body>
+
+
+
+</body>
+</html>
